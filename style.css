@@ -1439,6 +1439,7 @@ footer .opening-hrs ul li {
     padding-top: 0;
     margin-top: 50px;
     width: 65%;
+    opacity: 1 !important;
   }
   .menu-list li a {
     color: black;
@@ -1692,7 +1693,7 @@ footer .opening-hrs ul li {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
   h2 {
     font-size: 40px !important;
     margin-bottom: 50px;
@@ -1726,6 +1727,9 @@ footer .opening-hrs ul li {
   .hero #previous {
     margin-top: -396px;
     margin-left: 884px;
+  }
+  .hero #background {
+    height: 108vh;
   }
   .about {
     position: relative;
